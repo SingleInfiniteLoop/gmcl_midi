@@ -40,14 +40,14 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\lib\linux\x32\</OutDir>
+    <OutDir>..\lib\windows\x32\</OutDir>
     <IntDir>obj\x32\</IntDir>
     <TargetName>gmcl_midi</TargetName>
     <TargetExt>.dll</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\lib\linux\x64\</OutDir>
+    <OutDir>..\lib\windows\x64\</OutDir>
     <IntDir>obj\x64\</IntDir>
     <TargetName>gmcl_midi</TargetName>
     <TargetExt>.dll</TargetExt>
@@ -74,7 +74,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <ImportLibrary>..\lib\linux\x32\gmcl_midi.lib</ImportLibrary>
+      <ImportLibrary>..\lib\windows\x32\gmcl_midi.lib</ImportLibrary>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -98,7 +98,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <ImportLibrary>..\lib\linux\x64\gmcl_midi.lib</ImportLibrary>
+      <ImportLibrary>..\lib\windows\x64\gmcl_midi.lib</ImportLibrary>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

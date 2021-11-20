@@ -14,7 +14,7 @@ ifeq ($(config),release_x32)
   ifeq ($(origin AR), default)
     AR = ar
   endif
-  TARGETDIR = ../lib/linux/x32
+  TARGETDIR = ../lib/macosx/x32
   TARGET = $(TARGETDIR)/libgmcl_midi.dylib
   OBJDIR = obj/x32
   DEFINES += -DNDEBUG -DGMMODULE -D__MACOSX_CORE__
@@ -49,7 +49,7 @@ ifeq ($(config),release_x64)
   ifeq ($(origin AR), default)
     AR = ar
   endif
-  TARGETDIR = ../lib/linux/x64
+  TARGETDIR = ../lib/macosx/x64
   TARGET = $(TARGETDIR)/libgmcl_midi.dylib
   OBJDIR = obj/x64
   DEFINES += -DNDEBUG -DGMMODULE -D__MACOSX_CORE__

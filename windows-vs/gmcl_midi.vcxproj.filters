@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GarrysMod">
+      <UniqueIdentifier>{9DABBA1F-0916-6F96-5254-203CBEFD4CEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GarrysMod\Lua">
+      <UniqueIdentifier>{AE4A4C8E-1A0B-C8C4-E345-11424FC50CA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RtMidi">
+      <UniqueIdentifier>{EE2785CF-DAC9-AFA5-C384-C3F9AFC536F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\GarrysMod\Lua\Interface.h">
+      <Filter>GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GarrysMod\Lua\LuaBase.h">
+      <Filter>GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GarrysMod\Lua\SourceCompat.h">
+      <Filter>GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GarrysMod\Lua\Types.h">
+      <Filter>GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GarrysMod\Lua\UserData.h">
+      <Filter>GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RtMidi\RtMidi.h">
+      <Filter>RtMidi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\compat\clock_gettime.c">
+      <Filter>compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RtMidi\RtMidi.cpp">
+      <Filter>RtMidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gmcl_midi.cpp" />
+  </ItemGroup>
+</Project>
